@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr 1.2fr;
+    grid-template-rows: 1fr 4fr 3fr 1fr;
+    grid-template-areas: "header header header" "infomation infomation candy" "infomation infomation candy" "footer footer footer";
+    height: 100vh;
+    margin: 2em; 
+
+}
+
+main {
+    grid-area: main;
+    background: #ffad;
+}
+
+section.infomation {
+    grid-area: infomation;
+    background: #4fcbfb;
+}
+
+header {
+    grid-area: header;
+    background: #dfb5b5;
+}
+
+.candy {
+    grid-area: candy;
+    background: url('https://cdn.gencraft.com/prod/user/0bb56039-3074-43e8-9244-cd9b1b6bd1fc/2a23c419-4802-412a-8bd6-d13bda798ee9/image/image1_0.jpg?Expires=1712957368&Signature=R5kunQ1H~QiTcz9uGlI9jk1cyB9zJSiEXlS1NhNUmwyYSzLBr8c~Jq4aa-z~MkW~vYRju3wByCGRu1NFosZaH5ME0PdzNcSzyZkENSQzEQlT6UpfBbik5NDmheCOpY1lFtKPfv7RI6egfWzH0rPj0NfyiNxDGVYOS7bekSIpDe-e1NfcOmhzQpbLmQU2tmAaC0DF9mBbINoc0scF6v7LA42axd3jUxuzu~mWLmTUYTSA80Sxi5KsiykfjMaF-4xQiPTZONl2FHh7hJvGhVFoj4vnOcJ3U0O8oNEGQ5kpApc04YxaH0hV~9KIxXcptItPnAuK58LOKMwvcjPOTfK2aQ__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat;
+    background-size: cover;
+}
+
+footer {
+    grid-area: footer;
+    background: #ff7e89;
+}
