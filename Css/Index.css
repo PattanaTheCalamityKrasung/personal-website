@@ -26,15 +26,19 @@ section.infomation {
 header {
     grid-area: header;
     background: #dfb5b5;
+    border-radius: 40px 40px 0px 0px;
 }
 
 .candy {
     grid-area: candy;
-    background: url('https://cdn.gencraft.com/prod/user/0bb56039-3074-43e8-9244-cd9b1b6bd1fc/2a23c419-4802-412a-8bd6-d13bda798ee9/image/image1_0.jpg?Expires=1712957368&Signature=R5kunQ1H~QiTcz9uGlI9jk1cyB9zJSiEXlS1NhNUmwyYSzLBr8c~Jq4aa-z~MkW~vYRju3wByCGRu1NFosZaH5ME0PdzNcSzyZkENSQzEQlT6UpfBbik5NDmheCOpY1lFtKPfv7RI6egfWzH0rPj0NfyiNxDGVYOS7bekSIpDe-e1NfcOmhzQpbLmQU2tmAaC0DF9mBbINoc0scF6v7LA42axd3jUxuzu~mWLmTUYTSA80Sxi5KsiykfjMaF-4xQiPTZONl2FHh7hJvGhVFoj4vnOcJ3U0O8oNEGQ5kpApc04YxaH0hV~9KIxXcptItPnAuK58LOKMwvcjPOTfK2aQ__&Key-Pair-Id=K3RDDB1TZ8BHT8') no-repeat;
+    background: url('https://scontent.fakl2-1.fna.fbcdn.net/v/t1.6435-9/116819224_1089002351501087_8296447487107945868_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ujzSnOhlB28Q7kNvgGhLT9x&_nc_ht=scontent.fakl2-1.fna&oh=00_AfBQeqpYyErUREfzInZ0Bi3iNmI1eJWNgTN0fe1LQL2MXw&oe=6657D0C8') no-repeat;
     background-size: cover;
+    background-position: right;
+    background-size: 2fr;
 }
 
 footer {
     grid-area: footer;
     background: #ff7e89;
+    border-radius: 0px 0px 40px 40px;
 }

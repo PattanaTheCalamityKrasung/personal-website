@@ -16,30 +16,42 @@ body {
 header {
     grid-area: header;
     background: #dfb5b5;
+    border-radius: 40px 40px 0px 0px;
 }
 
 section.pic1 {
     grid-area: pic1;
     background: url('https://static.independent.co.uk/2020/11/02/14/newFile-3.jpg') no-repeat;
     background-size: cover;
+    border-radius: 40px 0px 0px 0px;
+    border-left: 15px;
+    border-style: solid;
 }
 
 section.pic2 {
     grid-area: pic2;
-    background: url('https://www.foodrepublic.com/img/gallery/the-acid-combos-that-give-sour-candy-its-bite/l-intro-1695926159.jpg') no-repeat;
+    background: url('https://cdn.onefc.com/wp-content/uploads/2022/03/ONETUMI_KA.jpg') no-repeat;
+    background-position: 20px;
     background-size: cover;
 }
 
 section.pic3 {
     grid-area: pic3;
-    background: url('https://sites.imsa.edu/acronym/files/2021/10/candy.jpg') no-repeat;
+    background: url('https://cdn.vox-cdn.com/thumbor/w6oJbXhGS_a9KvAelYMMyUXb69I=/0x0:595x591/1400x1400/filters:focal(246x21:340x115):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/54724075/djbelts.0.jpg') no-repeat;
     background-size: cover;
+    border-radius: 0px 40px 0px 0px;
+    border-right: 15px;
+    border-style: solid;
+    border-color: blue;
 }
 
 section.pic4 {
     grid-area: pic4;
     background: url('https://images.ctfassets.net/ja3kbhb2syc5/3So7mAGcd9KYifjophTnGp/4e20104427b2f0e9e2fc6c22d66e423f/Bulk-Candy-Shop-Wholesale-Redstone-Foods_627936704.jpg') no-repeat;
     background-size: cover;
+    border-radius: 0px 0px 0px 40px;
+    border-left: 15px;
+    border-style: solid;
 }
 
 section.pic5 {
@@ -52,9 +64,13 @@ section.pic6 {
     grid-area: pic6;
     background: url('https://media.gettyimages.com/id/185882581/video/colorful-chocolate-candy-3-videos-in-1.jpg?s=640x640&k=20&c=VHVZ1C_MgaOgbbJZkXPZyEqfzj4shDdCro2Do4xBpps=') no-repeat;
     background-size: cover;
+    border-radius: 0px 0px 40px 0px;
+    border-right: 15px;
+    border-style: solid;
 }
 
 footer {
     grid-area: footer;
     background: #44af;
+    border-radius: 0px 0px 40px 40px;
 }
