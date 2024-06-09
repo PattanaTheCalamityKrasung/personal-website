@@ -1,6 +1,38 @@
+@charset "UTF-8";
+
+/* CSS variable */
+
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgb(104, 104, 104, 0.8);
+}
+
 body {
     margin: 0;
     height: 100vh;
+}
+
+.main-nav ul{
+    display: grid;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-nav a{
+    background: var(--primary);
+    display: block;
+    gap: 40px;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-emphasis: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow);
+    font-family: sans-serif;
 }
 
 .grid-container {
@@ -16,17 +48,23 @@ body {
 main {
     grid-area: main;
     background: #ffad;
+    border-radius: 20px 20px 20px 20px;
 }
 
 section.infomation {
     grid-area: infomation;
     background: #4fcbfb;
+    border-radius: 20px 20px 20px 20px;
 }
 
 header {
     grid-area: header;
     background: #dfb5b5;
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.home:hover {
+    color: #4fcbfb;
 }
 
 .candy {
@@ -35,10 +73,12 @@ header {
     background-size: cover;
     background-position: right;
     background-size: 2fr;
+    border-radius: 20px 20px 20px 20px;
 }
 
 footer {
     grid-area: footer;
     background: #ff7e89;
-    border-radius: 0px 0px 40px 40px;
+    border-radius: 20px 20px 20px 20px;
 }
+

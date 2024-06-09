@@ -33,6 +33,7 @@ section.pic2 {
     background: url('https://cdn.onefc.com/wp-content/uploads/2022/03/ONETUMI_KA.jpg') no-repeat;
     background-position: 20px;
     background-size: cover;
+    background-color: black;
 }
 
 section.pic3 {
@@ -42,12 +43,11 @@ section.pic3 {
     border-radius: 0px 40px 0px 0px;
     border-right: 15px;
     border-style: solid;
-    border-color: blue;
 }
 
 section.pic4 {
     grid-area: pic4;
-    background: url('https://images.ctfassets.net/ja3kbhb2syc5/3So7mAGcd9KYifjophTnGp/4e20104427b2f0e9e2fc6c22d66e423f/Bulk-Candy-Shop-Wholesale-Redstone-Foods_627936704.jpg') no-repeat;
+    background: url('https://www.nzherald.co.nz/resizer/v2/MKFYZGYJ5NFBXBPHSA2VCSAABI.jpg?auth=2fb9d6b5a228ec700c07a3d0ee1f1765894ee08c5b69cc535b8b7f49f908bfad&width=576&height=613&quality=70&smart=true') no-repeat;
     background-size: cover;
     border-radius: 0px 0px 0px 40px;
     border-left: 15px;
@@ -56,13 +56,13 @@ section.pic4 {
 
 section.pic5 {
     grid-area: pic5;
-    background: url('https://thumbs.dreamstime.com/b/assortment-mars-chocolate-bars-halloween-irvine-california-october-full-size-candy-128640599.jpg') no-repeat;
+    background: url('https://assetsio.gnwcdn.com/Anime-Adventures-official-roblox-key-art.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp') no-repeat;
     background-size: cover;
 }
 
 section.pic6 {
     grid-area: pic6;
-    background: url('https://media.gettyimages.com/id/185882581/video/colorful-chocolate-candy-3-videos-in-1.jpg?s=640x640&k=20&c=VHVZ1C_MgaOgbbJZkXPZyEqfzj4shDdCro2Do4xBpps=') no-repeat;
+    background: url('https://i.redd.it/zokwzviaq4s41.gif') no-repeat;
     background-size: cover;
     border-radius: 0px 0px 40px 0px;
     border-right: 15px;
