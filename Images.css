@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas: "header header header" "pic1 pic2 pic3" "pic4 pic5 pic6" "footer footer footer";
+    height: 100vh;
+    margin: 2em; 
+
+}
+
+header {
+    grid-area: header;
+    background: #dfb5b5;
+    border-radius: 40px 40px 0px 0px;
+}
+
+section.pic1 {
+    grid-area: pic1;
+    background: url('https://static.independent.co.uk/2020/11/02/14/newFile-3.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 40px 0px 0px 0px;
+    border-left: 15px;
+    border-style: solid;
+}
+
+section.pic2 {
+    grid-area: pic2;
+    background: url('https://cdn.onefc.com/wp-content/uploads/2022/03/ONETUMI_KA.jpg') no-repeat;
+    background-position: 20px;
+    background-size: cover;
+    background-color: black;
+}
+
+section.pic3 {
+    grid-area: pic3;
+    background: url('https://cdn.vox-cdn.com/thumbor/w6oJbXhGS_a9KvAelYMMyUXb69I=/0x0:595x591/1400x1400/filters:focal(246x21:340x115):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/54724075/djbelts.0.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 0px 40px 0px 0px;
+    border-right: 15px;
+    border-style: solid;
+}
+
+section.pic4 {
+    grid-area: pic4;
+    background: url('https://www.nzherald.co.nz/resizer/v2/MKFYZGYJ5NFBXBPHSA2VCSAABI.jpg?auth=2fb9d6b5a228ec700c07a3d0ee1f1765894ee08c5b69cc535b8b7f49f908bfad&width=576&height=613&quality=70&smart=true') no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 0px 40px;
+    border-left: 15px;
+    border-style: solid;
+}
+
+section.pic5 {
+    grid-area: pic5;
+    background: url('https://assetsio.gnwcdn.com/Anime-Adventures-official-roblox-key-art.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp') no-repeat;
+    background-size: cover;
+}
+
+section.pic6 {
+    grid-area: pic6;
+    background: url('https://i.redd.it/zokwzviaq4s41.gif') no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 40px 0px;
+    border-right: 15px;
+    border-style: solid;
+}
+
+footer {
+    grid-area: footer;
+    background: #44af;
+    border-radius: 0px 0px 40px 40px;
+}
